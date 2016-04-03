@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+header {
+  height: auto;
+  margin: auto;
+  width: 100%;
+  background-color: sienna;
+  color: #EEE;
+  top: 0;
+  position: absolute;
+  text-align: center;
+  padding-top: 15px;
+}
+h1 {
+  margin-top: 0;
+}
+
+
+body {
+  font-family: 'Fjalla One', sans-serif;
+  background-color: slateGray;
+
+  padding-top: 80px;
+}
+
+
+
+section {
+  margin: auto;
+  margin-left: 85px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.movies {
+  background-color: #465C76;
+  width: 300px;
+  height: 675px;
+  margin: 0 30px;
+  box-shadow: 1px 1px #6B7C90;
+  border-radius: 5px;
+}
+
+
+button {
+  text-align: center;
+  background: #D1B045;
+  border-radius: 5px;
+  text-shadow: 2px 1px 1px #000000;
+  font-family: Georgia;
+  color: ivory;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 100.5%;
+}
+button:hover{
+  background: #9E4C7E;
+  background-image: linear-gradient(to bottom, #D1B045, #CA86A9);
+  text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 2px 1px black;
+    color: #EEE;
+}
+
+li {
+  text-align: center;
+  color: #EEE;
+}
+
+p {
+  font-family: times;
+  font-size: 14px;
+  font-style: italic;
+  margin-left: 10px;
+  color: #EEE;
+}
